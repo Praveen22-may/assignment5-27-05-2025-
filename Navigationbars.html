@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Navigational bars</title>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        .vertical-nav {
+            width: 200px;
+            background-color: plum;
+            border: 1px solid white;
+            float: left;
+            margin-right: 40px;
+        }
+
+        .vertical a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+        }
+
+        .vertical a:first-child {
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+        }
+
+        .horizontal-nav {
+            overflow: hidden;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        .horizontal a {
+            float: left;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: blue;
+            border-right: 1px solid gray;
+            }
+
+            .horizontal a:first-child {
+                background-color: gray;
+                color: white;
+                font-weight: bold;
+                border-right: none;
+            }
+
+    </style>
+</head>
+<body>
+    <p>Vertical Navigational Bar</p>
+    <div class="vertical">
+        <a href="#">Home</a><br>
+        <a href="#">Java</a><br>
+        <a href="#">CSS</a><br>
+        <a href="#">HTML</a><br>
+        <a href="#">Bootstrap</a>
+    </div>
+    
+    <p>Horizontal Navigational</p>
+    <div class="horizontal">
+        <a href="#">Home</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">CSS></a>
+
+    </div>
+</body>
+</html>
